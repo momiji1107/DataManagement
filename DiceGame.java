@@ -8,16 +8,9 @@ public class DiceGame{
 	int b = rand.nextInt(6)+1;
 	int sum = a+b;
 
-	System.out.println("What is your name?");
-	String name = sc.nextLine();
-	System.out.println("Helleo, "+name+"!");
-
 	System.out.println("Rolling dice...");
 	System.out.println("Die 1: "+a);
 	System.out.println("Die 2: "+b);
 	System.out.println("Total value: "+sum);
-
-	if(sum>7) System.out.println(name+" won!");
-	else System.out.println(name+" lost...");
     }
 }
